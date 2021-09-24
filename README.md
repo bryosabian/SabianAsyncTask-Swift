@@ -1,5 +1,5 @@
 # SabianAsyncTask-Swift-IOS-
-A utility iOS threading wrapper for handling background threads using Swift. This a threading wrapper for handling background tasks in iOS swift making use of Swift Threading Libraries. This is inspired by my Android version of the same called SabianAsyncTask [a link](https://github.com/bryosabian/SabianAsyncTask)
+This a threading wrapper for handling background tasks in iOS by making use of Swift Threading Libraries. This is inspired by my Android version of the same called SabianAsyncTask [a link](https://github.com/bryosabian/SabianAsyncTask)
 
 How to use
 
