@@ -1,8 +1,7 @@
 //
 //  SabianAsyncTask.swift
-//  Nygma Period Tracker
 //
-//  Created by Jared Leto on 20/07/2021.
+//  Created by Jared Leto (Sabian) on 20/07/2021.
 //  Copyright © 2021 Jared Leto. All rights reserved.
 //
 
