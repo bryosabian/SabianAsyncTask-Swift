@@ -11,6 +11,7 @@ enum MyError: Error {
 let task = SabianAsyncTask<Int>()
 
 task.execute({
+    //Do long running task here
     let amounts = [10,20,30]
     let sum = amounts.reduce(0, { x, y in
         x + y
@@ -20,12 +21,15 @@ task.execute({
     }
     return sum
 }, onBefore: {
+    //Do something on the main thread befre the task runs e.g Show progress
     print("Task has begun")
 },
 onComplete: {  result in
+    //Do some work on the main thread after the background thread completes
     print(String(format: "Task has completed with result %@", result))
 },
 onError: { error in
+    //Do some work on the main thread after the background thread fails or throws an exception
     print(String(format: "Task has failed with result %@", error.localizedDescription))
 })
                
