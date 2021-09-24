@@ -16,7 +16,7 @@ task.execute({
         x + y
     })
     if sum < 50 {
-        throw MyError.runtimeError("Amount must be greater or equal to 50")
+        throw MyError.runtimeError("Amounts must be greater or equal to 50")
     }
     return sum
 }, onBefore: {
